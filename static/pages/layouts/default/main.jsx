@@ -20,6 +20,8 @@ var DefaultLayout = React.createClass({
                     <script src="dist/js/jquery.min.js"></script>
                     <script src="dist/js/bootstrap.min.js"></script>
                     <script src="dist/js/clear.btn.min.js"></script>
+                    <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+                    <script src="dist/js/ForecastMapAPI.js" type="text/javascript"></script>
                     
                 </head>
                 <body>

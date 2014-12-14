@@ -11,7 +11,7 @@ var GeoAPI = (function () {
                 })[0];
                 promise.resolve(city.id);
                 
-            } else {            
+            } else {
                 if (navigator.geolocation) {
                     navigator.geolocation.getCurrentPosition(function(position) {                
                         if (position && position.coords) {

@@ -79,6 +79,13 @@ module.exports = function (req, res) {
             },
             short: short,
             full: result.forecast,
+            map: {
+                geoid: result.info.geoid,
+                lat: result.info.lat,
+                long: result.info.lon,
+                temp: result.fact.temp,
+                icon: result.fact.weather_icon
+            },
             hourly: {
                 hours: hours,
                 min: hours_min,

@@ -7,7 +7,7 @@ var DefaultLayoutHeader = React.createClass({
                         <img src="http://yastatic.net/www/2.131/yaru/i/logo.png" alt="Яндекс" width="100" height="44"/>
                     </a>
                 </div>
-   
+            
                 <script src="http://twitter.github.io/typeahead.js/releases/latest/typeahead.bundle.js"></script>
                 <script src="dist/js/suggest.js"></script>
                 <div className="header__section header__city-search-wrapper">

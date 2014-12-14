@@ -38,7 +38,7 @@ $(function () {
         geoid = data.geoid;
     });
 });
-
+/*
 window.addEventListener('load', function() {
     (function(w, d, n, s, t) {
         w[n] = w[n] || [];
@@ -56,4 +56,4 @@ window.addEventListener('load', function() {
         s.async = true;
         t.parentNode.insertBefore(s, t);
     })(window, document, "yandexContextAsyncCallbacks");
-});
+});*/
